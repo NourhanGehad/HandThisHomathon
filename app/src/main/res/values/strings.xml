@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HandThis Homathon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Yes we did it</string>
+    <string name="welcome_to_handthis"><![CDATA[Welcome<br />To<br /> <font color=#FBAF02>Hand</font>]]>This</string>
+    <string name="start">start</string>
+    <string name="intro_headline_1">Order\nfaster &amp; easier</string>
+    <string name="intro_headline_2">Enjoy!</string>
+    <string name="intro_text_1">We deliver to your home or office. Choose from plenty of businesses nearby.</string>
+    <string name="intro_text_2">We are pleased to welcome you as a new customer and look forward to providing you with good service.</string>
+    <string name="next">next</string>
+    <string name="sign_in">Sign In</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="no_account">Don\'t Have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="have_account">Already have an account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="agree_to_terms">By clicking sign up you agree to the terms and conditions</string>
+    <string name="business">Business</string>
+    <string name="customer">Customer</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="forgot_password_msg">Please enter your phone. You will receive a link to create a new Password.</string>
+    <string name="send">Send</string>
+    <string name="profile">Profile</string>
+    <string name="myOrders">My Orders</string>
+    <string name="favourites">Favourites</string>
+    <string name="home">Home</string>
+    <string name="kfc">KFC</string>
+    <string name="jeddah_saudi_arabia">Jeddah, Saudi Arabia</string>
+</resources>

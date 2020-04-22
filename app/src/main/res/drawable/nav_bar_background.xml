@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    <solid android:color="#FFFFFF" />-->
+    <layer-list android:autoMirrored="true" xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item>
+            <shape android:shape="rectangle" >
+                <size android:height="1dp" />
+                <solid android:color="@color/colorGrey" />
+            </shape>
+        </item>
+        <item android:top="2dp">
+            <shape android:shape="rectangle" >
+                <solid android:color="#FFFFFF" />
+<!--                <gradient android:endColor="#AD1B1D"-->
+<!--                    android:startColor="#E2360A"-->
+<!--                    android:angle="270" />-->
+            </shape>
+        </item>
+    </layer-list>
