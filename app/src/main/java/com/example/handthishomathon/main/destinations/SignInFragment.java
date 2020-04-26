@@ -1,5 +1,6 @@
 package com.example.handthishomathon.main.destinations;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -28,8 +29,12 @@ import com.example.handthishomathon.model.Consumer;
 import com.example.handthishomathon.model.LoginForm;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.gson.Gson;
 
-import org.w3c.dom.Text;
+import com.google.gson.JsonObject;
+
+
+import static android.content.Context.MODE_PRIVATE;
 
 
 /**
@@ -75,6 +80,8 @@ public class SignInFragment extends Fragment {
         signInNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences mPrefs = getActivity().getPreferences(MODE_PRIVATE);
+
                 ToggleButton toggleButton = view.findViewById(R.id.user_type);
                 toggleButton.getText();
                 LoginForm loginForm = createLoginForm();
@@ -82,16 +89,28 @@ public class SignInFragment extends Fragment {
                     if(!loginForm.getPhone().isEmpty()){
                         vm.signInConsumer(loginForm);
 
-                        vm.consumerMutableLiveData.observe(getActivity(), new Observer<Consumer>() {
+                        vm.consumerMutableLiveData.observe(getActivity(), new Observer<JsonObject>() {
                             @Override
-                            public void onChanged(Consumer consumer) {
-                                vm.consumer = consumer;
-                                if(consumer != null && !consumer.getId().isEmpty() && consumer.getId() != null){
-                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
-                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
-                                } else {
-                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
-                                }
+                            public void onChanged(JsonObject jsonObject) {
+                                Log.i("signinresponse", jsonObject.get("message").toString());
+
+                               // Log.d("signinresponse", msg.toString());
+                               // Log.d("signinresponse", data.get("_id").toString());
+//                                vm.consumer = consumer;
+//                                if(consumer != null && !consumer.getId().isEmpty() && consumer.getId() != null){
+//                                    Consumer consumer1 = consumer;
+//
+//                                    SharedPreferences.Editor prefsEditor = mPrefs.edit();
+//                                    Gson gson = new Gson();
+//                                    String json = gson.toJson(consumer1);
+//                                    prefsEditor.putString("user_type", "consumer");
+//                                    prefsEditor.putString("consumer", json);
+//                                    prefsEditor.commit();
+//                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
+//                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
+//                                } else {
+//                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
+//                                }
                             }
                         });
                     }
@@ -100,16 +119,25 @@ public class SignInFragment extends Fragment {
                     if(!loginForm.getPhone().isEmpty()){
                         vm.signInBusiness(loginForm);
 
-                        vm.businessMutableLiveData.observe(getActivity(), new Observer<Business>() {
+                        vm.businessMutableLiveData.observe(getActivity(), new Observer<JsonObject>() {
                             @Override
-                            public void onChanged(Business business) {
-                                vm.business = business;
-                                if(business != null && !business.getId().isEmpty() && business.getId() != null){
-                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
-                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
-                                } else {
-                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
-                                }
+                            public void onChanged(JsonObject jsonObject) {
+//                                vm.business = business;
+//                                if(business != null && !business.getId().isEmpty() && business.getId() != null){
+//                                    Business business1 = business;
+//
+//                                    SharedPreferences.Editor prefsEditor = mPrefs.edit();
+//                                    Gson gson = new Gson();
+//                                    String json = gson.toJson(business1);
+//                                    prefsEditor.putString("user_type", "business");
+//                                    prefsEditor.putString("business", json);
+//                                    prefsEditor.commit();
+//
+//                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
+//                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
+//                                } else {
+//                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
+//                                }
                             }
                         });
                     }

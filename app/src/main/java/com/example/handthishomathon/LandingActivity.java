@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,12 +21,16 @@ import android.widget.TextView;
 import com.google.android.material.tabs.TabLayout;
 
 public class LandingActivity extends AppCompatActivity {
-
+    SharedPreferences mPrefs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
-
+        mPrefs = getPreferences(MODE_PRIVATE);
+        String userType = mPrefs.getString("user_type", "N/A");
+        if(userType!="N/A"){
+            leaveLandingPage();
+        }
 
     }
 

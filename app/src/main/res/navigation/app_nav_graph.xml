@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/app_nav_graph"
     app:startDestination="@id/signInFragment">
+    <action
+        android:id="@+id/action_to_home"
+        app:destination="@id/homeFragment" />
 
     <fragment
         android:id="@+id/signInFragment"

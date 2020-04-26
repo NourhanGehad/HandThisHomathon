@@ -5,8 +5,8 @@ import com.example.handthishomathon.model.Business;
 import com.example.handthishomathon.model.Consumer;
 import com.example.handthishomathon.model.LoginForm;
 import com.example.handthishomathon.model.Order;
+import com.google.gson.JsonObject;
 
-import org.json.JSONObject;
 
 import java.util.List;
 
@@ -37,12 +37,12 @@ public interface Services {
     @POST("business/create-business")
     public Observable<Business> signUpBusiness(@Body Business business);
 
-    @POST("business/login-consumer")
-    public Observable<Consumer> loginConsumer(@Body LoginForm loginForm);
+    @POST("consumer/login-consumer")
+    public Observable<JsonObject> loginConsumer(@Body LoginForm loginForm);
 
     @POST("business/login-business")
     //@HTTP(method = "GET", path = "consumer/login-business", hasBody = true)
-    public Observable<Business> loginBusiness(@Body LoginForm loginForm);
+    public Observable<JsonObject> loginBusiness(@Body LoginForm loginForm);
     
     @POST("order/create-order")
     public Observable<Order> addNewOrder(@Body Order order);

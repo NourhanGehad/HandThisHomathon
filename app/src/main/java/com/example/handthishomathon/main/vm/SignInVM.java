@@ -9,6 +9,10 @@ import com.example.handthishomathon.data.Client;
 import com.example.handthishomathon.model.Business;
 import com.example.handthishomathon.model.Consumer;
 import com.example.handthishomathon.model.LoginForm;
+import com.google.gson.JsonObject;
+
+
+import org.json.JSONObject;
 
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -20,11 +24,11 @@ public class SignInVM extends ViewModel {
 
     public Consumer consumer = new Consumer();
     public Business business = new Business();
-    public MutableLiveData<Consumer> consumerMutableLiveData = new MutableLiveData<>();
-    public MutableLiveData<Business> businessMutableLiveData = new MutableLiveData<>();
+    public MutableLiveData<JsonObject> consumerMutableLiveData = new MutableLiveData<>();
+    public MutableLiveData<JsonObject> businessMutableLiveData = new MutableLiveData<>();
     CompositeDisposable compositeDisposable;
     public void signInConsumer(LoginForm loginForm){
-        Observable<Consumer> observable = Client.getINSTANCE().loginConsumer(loginForm)
+        Observable<JsonObject> observable = Client.getINSTANCE().loginConsumer(loginForm)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
 
@@ -32,7 +36,7 @@ public class SignInVM extends ViewModel {
         compositeDisposable.add(observable.subscribe(o->consumerMutableLiveData.setValue(o), e-> Log.d("PVMError",e.getMessage())));
     }
     public void signInBusiness(LoginForm loginForm){
-        Observable<Business> observable = Client.getINSTANCE().loginBusiness(loginForm)
+        Observable<JsonObject> observable = Client.getINSTANCE().loginBusiness(loginForm)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
 
