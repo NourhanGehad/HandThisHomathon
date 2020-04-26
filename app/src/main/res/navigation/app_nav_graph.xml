@@ -40,7 +40,11 @@
         android:id="@+id/homeFragment"
         android:name="com.example.handthishomathon.main.destinations.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_chatBotFragment"
+            app:destination="@id/chatBotFragment" />
+    </fragment>
     <fragment
         android:id="@+id/myOrdersFragment"
         android:name="com.example.handthishomathon.main.destinations.MyOrdersFragment"
@@ -56,4 +60,9 @@
         android:name="com.example.handthishomathon.main.destinations.FavouritesFragment"
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.example.handthishomathon.main.destinations.ChatBotFragment"
+        android:label="fragment_chat_bot"
+        tools:layout="@layout/fragment_chat_bot" />
 </navigation>

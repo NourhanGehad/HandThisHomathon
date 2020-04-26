@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\app_nav_graph.xml","javaFiles":["com.example.handthishomathon.main.destinations.SignInFragmentDirections","com.example.handthishomathon.main.destinations.SignUpFragmentDirections"]}]
+[{"navFile":"src/main/res/navigation/app_nav_graph.xml","javaFiles":["com.example.handthishomathon.main.destinations.SignInFragmentDirections","com.example.handthishomathon.main.destinations.SignUpFragmentDirections","com.example.handthishomathon.main.destinations.HomeFragmentDirections"]}]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hayllie\\.gradle\\caches\\transforms-2\\files-2.1\\fca22c58cd5b7dcb1d0613ca6e9e35bf\\material-1.2.0-alpha01\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/home/muhammad/.gradle/caches/transforms-2/files-2.1/c5ae4b9c98c1a5070b879c895d827052/material-1.2.0-alpha01/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

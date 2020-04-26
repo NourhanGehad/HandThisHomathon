@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!--            Todo add parent activity to CheckOutActivity -->
+        <activity
+            android:name=".CheckOutActivity">
+        </activity>
         <activity android:name=".LandingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AppActivity">
-
-        </activity>
+        <activity android:name=".AppActivity"></activity>
     </application>
 
 </manifest>
