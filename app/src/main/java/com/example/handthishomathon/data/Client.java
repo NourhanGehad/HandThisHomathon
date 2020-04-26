@@ -2,6 +2,7 @@ package com.example.handthishomathon.data;
 
 import com.example.handthishomathon.model.Business;
 import com.example.handthishomathon.model.Consumer;
+import com.example.handthishomathon.model.LoginForm;
 
 
 import io.reactivex.Observable;
@@ -11,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Client {
 
-    private static final String BASE_URL = "https://sleepy-earth-45632.herokuapp.com/";
+    private static final String BASE_URL = "https://homathon-handthis.herokuapp.com/";
     private  Services services;
     private static  Client INSTANCE;
 
@@ -36,6 +37,13 @@ public class Client {
     }
     public Observable<Business> signUpBusiness(Business business){
         return services.signUpBusiness(business);
+    }
+
+    public Observable<Consumer> loginConsumer(LoginForm consumer){
+        return services.loginConsumer(consumer);
+    }
+    public Observable<Business> loginBusiness(LoginForm business){
+        return services.loginBusiness(business);
     }
 
 }

@@ -37,11 +37,11 @@ public interface Services {
     @POST("business/create-business")
     public Observable<Business> signUpBusiness(@Body Business business);
 
-    @HTTP(method = "GET", path = "consumer/login-consumer", hasBody = true)
+    @POST("business/login-consumer")
     public Observable<Consumer> loginConsumer(@Body LoginForm loginForm);
 
-    @GET("business/login-business")
-    @HTTP(method = "GET", path = "consumer/login-business", hasBody = true)
+    @POST("business/login-business")
+    //@HTTP(method = "GET", path = "consumer/login-business", hasBody = true)
     public Observable<Business> loginBusiness(@Body LoginForm loginForm);
     
     @POST("order/create-order")
