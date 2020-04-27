@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_chat_bot.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_chat_bot.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_transparnt_rounded_corners_green.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/transparnt_rounded_corners_green.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_chat_bot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_chat_bot.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_card_rounded_corners.xml.flat",
@@ -64,12 +64,20 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_unselected_dot.xml"
     },
     {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_kfc.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/kfc.png"
+    },
+    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_shopping_bag.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_shopping_bag.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_blank.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_blank.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_burger_king.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/burger_king.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_nav_bar_background.xml.flat",
@@ -254,6 +262,10 @@
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_albaik.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/albaik.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_verify_phone_number.xml.flat",

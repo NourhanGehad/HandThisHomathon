@@ -1489,6 +1489,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable albaik
 drawable amu_bubble_mask
 drawable amu_bubble_shadow
 drawable avd_hide_password
@@ -1503,6 +1504,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable burger_king
 drawable card_rounded_corners
 drawable circle_background
 drawable common_full_open_on_phone
@@ -1566,6 +1568,7 @@ drawable ic_user_profile
 drawable ic_visa
 drawable intro_img1
 drawable intro_img2
+drawable kfc
 drawable kfc_logo
 drawable list
 drawable location
@@ -2143,6 +2146,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_app
+layout activity_chat_bot
 layout activity_check_out
 layout activity_landing
 layout amu_info_window
@@ -2171,7 +2175,6 @@ layout dialog_enable_location
 layout dynamic_feature_install_fragment
 layout fragment_blank
 layout fragment_card_details_bottom_sheet_list_dialog
-layout fragment_chat_bot
 layout fragment_favourites
 layout fragment_forgot_password
 layout fragment_home

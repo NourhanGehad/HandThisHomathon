@@ -27,7 +27,7 @@
 18-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 19
 20    <application
-20-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:7:5-26:19
+20-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:7:5-28:19
 21        android:allowBackup="true"
 21-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -41,102 +41,105 @@
 26-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:11:9-54
 27        android:supportsRtl="true"
 27-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:12:9-35
-28        android:theme="@style/AppTheme" >
-28-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:13:9-40
-29        <activity
-29-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:14:9-21:20
-30            android:name="com.example.handthishomathon.LandingActivity"
-30-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:14:19-50
-31            android:screenOrientation="nosensor" >
-31-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:15:13-49
-32            <intent-filter>
-32-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:16:13-20:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:17:17-69
-33-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:17:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:19:17-77
-35-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:19:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity
-38-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:9-25:20
-39            android:name="com.example.handthishomathon.AppActivity"
-39-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:19-46
-40            android:screenOrientation="nosensor" >
-40-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:23:13-49
-41        </activity>
-42
-43        <provider
-43-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-44            android:name="com.squareup.picasso.PicassoProvider"
-44-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-45            android:authorities="com.example.handthishomathon.com.squareup.picasso"
-45-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-46            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-46-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-47        <uses-library
-47-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-48            android:name="org.apache.http.legacy"
-48-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-49            android:required="false" />
-49-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-50
-51        <meta-data
-51-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
-52            android:name="com.google.android.gms.version"
-52-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
-53            android:value="@integer/google_play_services_version" />
-53-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
-54
-55        <activity
-55-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-56-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-57            android:exported="false"
-57-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-58-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-59
-60        <provider
-60-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-61            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-62            android:authorities="com.example.handthishomathon.lifecycle-process"
-62-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-63            android:exported="false"
-63-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-64            android:multiprocess="true" /> <!-- The activity will be merged into the manifest of the hosting app. -->
-64-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-65        <activity
-65-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:5-271
-66            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-66-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:15-102
-67            android:enabled="false"
-67-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:103-126
-68            android:exported="false"
-68-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:127-151
-69            android:launchMode="singleInstance"
-69-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:204-239
-70            android:process=":playcore_missing_splits_activity"
-70-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:152-203
-71            android:stateNotNeeded="true" />
-71-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:240-269
-72        <activity
-72-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:5-278
-73            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-73-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:15-95
-74            android:enabled="false"
-74-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:96-119
-75            android:exported="false"
-75-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:120-144
-76            android:process=":playcore_dialog_wrapper_activity"
-76-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:175-226
-77            android:stateNotNeeded="true"
-77-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:145-174
-78            android:theme="@style/Theme.PlayCore.Transparent" />
-78-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:227-276
-79    </application>
-80
-81</manifest>
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:13:9-40
+30        <activity android:name="com.example.handthishomathon.ChatBotActivity" />
+30-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:14:9-15:56
+30-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:15:13-44
+31        <activity
+31-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:16:9-24:20
+32            android:name="com.example.handthishomathon.LandingActivity"
+32-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:17:13-44
+33            android:screenOrientation="nosensor" >
+33-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:18:13-49
+34            <intent-filter>
+34-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:19:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:20:17-69
+35-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:20:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:17-77
+37-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:25:9-27:61
+41            android:name="com.example.handthishomathon.AppActivity"
+41-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:26:13-40
+42            android:screenOrientation="nosensor" />
+42-->/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:27:13-49
+43
+44        <provider
+44-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+45            android:name="com.squareup.picasso.PicassoProvider"
+45-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+46            android:authorities="com.example.handthishomathon.com.squareup.picasso"
+46-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+47            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+47-->[com.squareup.picasso:picasso:2.71828] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f346cd7f7cf0ba5d6abe6dc769d3391d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+48        <uses-library
+48-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+49            android:name="org.apache.http.legacy"
+49-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+50            android:required="false" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+51
+52        <meta-data
+52-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.maps.android:android-maps-utils:0.5] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cd79293b89a805baf5d150d5bd83df3b/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/155c9c83672e0f3df914ae1835ec4e0e/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+60
+61        <provider
+61-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+62            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+63            android:authorities="com.example.handthishomathon.lifecycle-process"
+63-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+64            android:exported="false"
+64-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+65            android:multiprocess="true" /> <!-- The activity will be merged into the manifest of the hosting app. -->
+65-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/59220316ddde44dc249f39be97ff7a13/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+66        <activity
+66-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:5-271
+67            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+67-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:15-102
+68            android:enabled="false"
+68-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:103-126
+69            android:exported="false"
+69-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:127-151
+70            android:launchMode="singleInstance"
+70-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:204-239
+71            android:process=":playcore_missing_splits_activity"
+71-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:152-203
+72            android:stateNotNeeded="true" />
+72-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:8:240-269
+73        <activity
+73-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:5-278
+74            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+74-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:15-95
+75            android:enabled="false"
+75-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:96-119
+76            android:exported="false"
+76-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:120-144
+77            android:process=":playcore_dialog_wrapper_activity"
+77-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:175-226
+78            android:stateNotNeeded="true"
+78-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:145-174
+79            android:theme="@style/Theme.PlayCore.Transparent" />
+79-->[com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:9:227-276
+80    </application>
+81
+82</manifest>
