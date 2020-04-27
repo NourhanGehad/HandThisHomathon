@@ -1,206 +1,282 @@
 [
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_favourites.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_favourites.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_next.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/next.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_chat_bot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_chat_bot.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_landing.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\activity_landing.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_starter.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_starter.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_transparnt_rounded_corners_green.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/transparnt_rounded_corners_green.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_card_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/card_rounded_corners.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_check_out.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_check_out.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider_dot_selector.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\slider_dot_selector.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider_unselected_dot.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\slider_unselected_dot.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_kfc_logo.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/kfc_logo.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\font_msyhbd.ttf.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\font\\msyhbd.ttf"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_selected_dot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_selected_dot.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_intro_slider.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_intro_slider.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sign_in.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_sign_in.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_favourites.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_favourites.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_rounded_corners.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\yellow_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_visa.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_visa.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_intro_slider.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_intro_slider.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_unselected_dot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_unselected_dot.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_nav_bar_background.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/nav_bar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_start_rounded_corners.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\start_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\font_microsoft_yahei.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\font\\microsoft_yahei.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/user.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brush_line.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\brush_line.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_white_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/white_rounded_corners.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_ic_send_button.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_send_button.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_my_orders.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_my_orders.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_brush_line.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/brush_line.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_in.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_star.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\star.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_item_message_received.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/item_message_received.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_intro_img1.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/intro_img1.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_dot_selector.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_dot_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_rounded_corners.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\white_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_location.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_location.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chimney.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\ic_chimney.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro_img1.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\intro_img1.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_back_arrow.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/back_arrow.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_bar_background.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\nav_bar_background.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_forgot_password.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_forgot_password.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_app.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\activity_app.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_up.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_list.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/list.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_arrow.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\back_arrow.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_photo.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_photo.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_kfc_logo.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\kfc_logo.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_my_orders.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_my_orders.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\navigation_app_nav_graph.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\navigation\\app_nav_graph.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_chimney.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_chimney.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\next.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/font_microsoft_yahei.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/font/microsoft_yahei.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_card_business.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\card_business.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_intro_img2.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/intro_img2.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_intro_img2.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\intro_img2.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_forgot_password.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\list.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/menu_bottom_navigation_menu.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slider_selected_dot.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\slider_selected_dot.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_cvv.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_cvv.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_user_profile.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_user_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_heart.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/heart.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heart.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\heart.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_app.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_app.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_rounded_corners.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\card_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_location2.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\location2.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_close_black_20dp.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_close_black_20dp.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\user.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_start_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/start_rounded_corners.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/font_msyhbd.ttf.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/font/msyhbd.ttf"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_yellow_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/yellow_rounded_corners.xml"
     },
     {
-        "merged": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sign_up.xml.flat",
-        "source": "C:\\Users\\Hayllie\\Downloads\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\HandThisHomathon\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_location2.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/location2.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/navigation_app_nav_graph.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/navigation/app_nav_graph.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_their_message.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/their_message.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_card_details_bottom_sheet_list_dialog.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_card_details_bottom_sheet_list_dialog.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_star.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/star.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_card_business.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/card_business.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_ic_chatbot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_chatbot.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_my_message.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/my_message.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_item_message_sent.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_landing.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_landing.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_transparnt_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/transparnt_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_cash.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_cash.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_next.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_next.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_starter.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_starter.xml"
     }
 ]

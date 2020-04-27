@@ -1,13 +1,10 @@
 package com.example.handthishomathon.main.destinations;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.NavDirections;
 import androidx.navigation.Navigation;
 
@@ -16,32 +13,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.ToggleButton;
 
 import com.example.handthishomathon.AppActivity;
 import com.example.handthishomathon.BaseBackPressedListener;
 import com.example.handthishomathon.R;
-import com.example.handthishomathon.main.vm.SignInVM;
-import com.example.handthishomathon.main.vm.SignUpVM;
-import com.example.handthishomathon.model.Business;
-import com.example.handthishomathon.model.Consumer;
-import com.example.handthishomathon.model.LoginForm;
+import com.example.handthishomathon.databinding.FragmentProfileBinding;
+import com.example.handthishomathon.databinding.FragmentSignInBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.textfield.TextInputLayout;
-import com.google.gson.Gson;
 
-import com.google.gson.JsonObject;
-
-
-import static android.content.Context.MODE_PRIVATE;
+import org.w3c.dom.Text;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class SignInFragment extends Fragment {
-    SignInVM vm;
+    private FragmentSignInBinding binding;
+
     public SignInFragment() {
         // Required empty public constructor
     }
@@ -50,9 +38,11 @@ public class SignInFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        ((AppActivity)getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
+        ((AppActivity) getActivity()).setOnBackPressedListener(new BaseBackPressedListener(getActivity()));
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_in, container, false);
+        binding = FragmentSignInBinding.inflate(inflater, container, false);
+        View view = binding.getRoot();
+        return view;
     }
 
     @Override
@@ -60,107 +50,25 @@ public class SignInFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         BottomNavigationView navBar = getActivity().findViewById(R.id.bottom_nav_bar);
         navBar.setVisibility(View.GONE);
-        vm = ViewModelProviders.of(this).get(SignInVM.class);
 
-        TextView goToSignUp = view.findViewById(R.id.go_to_sign_up);
-        TextView goToForgotPassword = view.findViewById(R.id.tv_go_to_forgot_password);
-        TextView signInNow = view.findViewById(R.id.tv_sign_in_now);
-        goToSignUp.setOnClickListener(new View.OnClickListener() {
+
+        binding.goToSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              Navigation.findNavController(view).navigate(R.id.action_signin_to_signup);
+                Navigation.findNavController(view).navigate(R.id.action_signin_to_signup);
             }
         });
-        goToForgotPassword.setOnClickListener(new View.OnClickListener() {
+        binding.tvGoToForgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigate(R.id.action_signin_to_forgot_password);
             }
         });
-        signInNow.setOnClickListener(new View.OnClickListener() {
+        binding.tvSignInNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SharedPreferences mPrefs = getActivity().getPreferences(MODE_PRIVATE);
-
-                ToggleButton toggleButton = view.findViewById(R.id.user_type);
-                toggleButton.getText();
-                LoginForm loginForm = createLoginForm();
-                if(toggleButton.getText().equals("Customer")){
-                    if(!loginForm.getPhone().isEmpty()){
-                        vm.signInConsumer(loginForm);
-
-                        vm.consumerMutableLiveData.observe(getActivity(), new Observer<JsonObject>() {
-                            @Override
-                            public void onChanged(JsonObject jsonObject) {
-                                Log.i("signinresponse", jsonObject.get("message").toString());
-
-                               // Log.d("signinresponse", msg.toString());
-                               // Log.d("signinresponse", data.get("_id").toString());
-//                                vm.consumer = consumer;
-//                                if(consumer != null && !consumer.getId().isEmpty() && consumer.getId() != null){
-//                                    Consumer consumer1 = consumer;
-//
-//                                    SharedPreferences.Editor prefsEditor = mPrefs.edit();
-//                                    Gson gson = new Gson();
-//                                    String json = gson.toJson(consumer1);
-//                                    prefsEditor.putString("user_type", "consumer");
-//                                    prefsEditor.putString("consumer", json);
-//                                    prefsEditor.commit();
-//                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
-//                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
-//                                } else {
-//                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
-//                                }
-                            }
-                        });
-                    }
-
-                } else {
-                    if(!loginForm.getPhone().isEmpty()){
-                        vm.signInBusiness(loginForm);
-
-                        vm.businessMutableLiveData.observe(getActivity(), new Observer<JsonObject>() {
-                            @Override
-                            public void onChanged(JsonObject jsonObject) {
-//                                vm.business = business;
-//                                if(business != null && !business.getId().isEmpty() && business.getId() != null){
-//                                    Business business1 = business;
-//
-//                                    SharedPreferences.Editor prefsEditor = mPrefs.edit();
-//                                    Gson gson = new Gson();
-//                                    String json = gson.toJson(business1);
-//                                    prefsEditor.putString("user_type", "business");
-//                                    prefsEditor.putString("business", json);
-//                                    prefsEditor.commit();
-//
-//                                    Toast.makeText(getActivity(), "Sign in successful.", Toast.LENGTH_SHORT).show();
-//                                    Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
-//                                } else {
-//                                    Toast.makeText(getActivity(), "Sign in Failed.", Toast.LENGTH_SHORT).show();
-//                                }
-                            }
-                        });
-                    }
-                }
+                Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
             }
         });
     }
-
-    private LoginForm createLoginForm() {
-        LoginForm loginForm = new LoginForm();
-        TextInputLayout phone = getView().findViewById(R.id.phone_number);
-        TextInputLayout password = getView().findViewById(R.id.password);
-
-        String phoneText = phone.getEditText().getText().toString();
-        String passwordText = password.getEditText().getText().toString();
-
-        if(phoneText.isEmpty() || passwordText.isEmpty()){
-            Toast.makeText(getActivity(), "Please fill all the fields", Toast.LENGTH_SHORT).show();
-        } else {
-            loginForm = new LoginForm(phoneText,passwordText);
-        }
-
-        return loginForm;
-    }
 }
-
