@@ -10,21 +10,19 @@
         android:id="@+id/fragment_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <fragment android:name="com.example.handthishomathon.StarterFragment"
             android:id="@+id/starter_fragment"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
     </FrameLayout>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/intro_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
         >
+
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/pagerIntroSlider"

@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.handthishomathon.R;
+import com.example.handthishomathon.databinding.FragmentForgotPasswordBinding;
+import com.example.handthishomathon.databinding.FragmentHomeBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
@@ -18,6 +20,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
  * A simple {@link Fragment} subclass.
  */
 public class HomeFragment extends Fragment {
+
+    private FragmentHomeBinding binding;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -28,7 +32,9 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        View view = binding.getRoot();
+        return view;
     }
 
     @Override

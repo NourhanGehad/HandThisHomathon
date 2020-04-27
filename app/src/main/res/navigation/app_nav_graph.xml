@@ -40,11 +40,7 @@
         android:id="@+id/homeFragment"
         android:name="com.example.handthishomathon.main.destinations.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_chatBotFragment"
-            app:destination="@id/chatBotFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/myOrdersFragment"
         android:name="com.example.handthishomathon.main.destinations.MyOrdersFragment"
@@ -61,8 +57,18 @@
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
     <fragment
-        android:id="@+id/chatBotFragment"
-        android:name="com.example.handthishomathon.main.destinations.ChatBotFragment"
-        android:label="fragment_chat_bot"
-        tools:layout="@layout/fragment_chat_bot" />
+        android:id="@+id/phoneVerification"
+        android:name="com.example.handthishomathon.main.destinations.PhoneVerification"
+        android:label="fragment_phone_verification"
+        tools:layout="@layout/fragment_phone_verification" />
+    <fragment
+        android:id="@+id/verifyPhoneNumber"
+        android:name="com.example.handthishomathon.main.destinations.VerifyPhoneNumber"
+        android:label="fragment_verify_phone_number"
+        tools:layout="@layout/fragment_verify_phone_number" />
+    <fragment
+        android:id="@+id/restaurant"
+        android:name="com.example.handthishomathon.main.destinations.Restaurant"
+        android:label="fragment_restaurant"
+        tools:layout="@layout/fragment_restaurant" />
 </navigation>
