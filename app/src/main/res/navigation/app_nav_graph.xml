@@ -56,4 +56,19 @@
         android:name="com.example.handthishomathon.main.destinations.FavouritesFragment"
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/phoneVerification"
+        android:name="com.example.handthishomathon.main.destinations.PhoneVerification"
+        android:label="fragment_phone_verification"
+        tools:layout="@layout/fragment_phone_verification" />
+    <fragment
+        android:id="@+id/verifyPhoneNumber"
+        android:name="com.example.handthishomathon.main.destinations.VerifyPhoneNumber"
+        android:label="fragment_verify_phone_number"
+        tools:layout="@layout/fragment_verify_phone_number" />
+    <fragment
+        android:id="@+id/restaurant"
+        android:name="com.example.handthishomathon.main.destinations.Restaurant"
+        android:label="fragment_restaurant"
+        tools:layout="@layout/fragment_restaurant" />
 </navigation>

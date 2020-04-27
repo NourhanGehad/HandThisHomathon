@@ -30,4 +30,18 @@
     <string name="home">Home</string>
     <string name="kfc">KFC</string>
     <string name="jeddah_saudi_arabia">Jeddah, Saudi Arabia</string>
+    <string name="done">Done</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="user_name">User name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="turn_on_device_location">Please Turn on device location, which uses Google\'s location service.</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="please_write_your_phone">Please write your Phone Number and we will sent to you a Code to verify your number.</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm">Confirm</string>
+    <string name="phone_verification">Phone Verification</string>
+    <string name="enter_your_otp_code_here">Enter your OTP code here</string>
 </resources>
