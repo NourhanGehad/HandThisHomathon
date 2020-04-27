@@ -3,6 +3,7 @@ package com.example.handthishomathon.main.destinations;
 import androidx.annotation.NonNull;
 import androidx.navigation.ActionOnlyNavDirections;
 import androidx.navigation.NavDirections;
+import com.example.handthishomathon.AppNavGraphDirections;
 import com.example.handthishomathon.R;
 
 public class SignUpFragmentDirections {
@@ -12,5 +13,10 @@ public class SignUpFragmentDirections {
   @NonNull
   public static NavDirections actionSignupToSignin() {
     return new ActionOnlyNavDirections(R.id.action_signup_to_signin);
+  }
+
+  @NonNull
+  public static NavDirections actionToHome() {
+    return AppNavGraphDirections.actionToHome();
   }
 }

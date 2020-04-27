@@ -1552,6 +1552,7 @@ id action_signin_to_home
 id action_signin_to_signup
 id action_signup_to_signin
 id action_text
+id action_to_home
 id actions
 id activity_chooser_view_content
 id add
