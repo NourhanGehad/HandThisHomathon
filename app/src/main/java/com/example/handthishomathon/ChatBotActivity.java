@@ -1,6 +1,8 @@
 package com.example.handthishomathon;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -37,6 +39,15 @@ public class ChatBotActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat_bot);
+
+        String clientName = getIntent().getStringExtra("rName");
+
+        Toolbar toolbar = findViewById(R.id.chat_bot_toolbar);
+        toolbar.setTitle(clientName);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowCustomEnabled(true);
 
         etMessage = findViewById(R.id.etMessage);
         btnSend = findViewById(R.id.btnSend);

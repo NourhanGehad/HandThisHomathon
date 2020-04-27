@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".main.destinations.SignInFragment">
 
     <ImageView
         android:id="@+id/iv_yellow_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:src="@drawable/brush_line"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"/>
 
     <TextView
         android:id="@+id/tv_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toTopOf="@id/iv_yellow_background"
+        app:layout_constraintStart_toStartOf="@id/iv_yellow_background"
         android:layout_marginStart="25dp"
         android:layout_marginTop="5dp"
-        android:fontFamily="@font/msyhbd"
-        android:gravity="center_vertical"
-        android:text="@string/sign_in"
         android:textColor="@color/colorNavyBlue"
+        android:fontFamily="@font/msyhbd"
         android:textSize="40sp"
-        app:layout_constraintStart_toStartOf="@id/iv_yellow_background"
-        app:layout_constraintTop_toTopOf="@id/iv_yellow_background" />
+        android:text="@string/sign_in"/>
 
     <ToggleButton
         android:id="@+id/user_type"
@@ -41,14 +41,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_yellow_background" />
+        app:layout_constraintTop_toBottomOf="@id/iv_yellow_background"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:hint="@string/phone"
         app:hintTextColor="@color/colorDarkGrey"
@@ -57,11 +57,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:lines="1"
-            android:singleLine="true"
             android:textColor="@color/colorNavyBlue"
-            android:textSize="16sp" />
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -69,75 +66,72 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:hint="@string/password"
         app:endIconMode="password_toggle"
+        android:hint="@string/password"
         app:hintTextColor="@color/colorDarkGrey"
         app:layout_constraintTop_toBottomOf="@id/phone_number">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:lines="1"
-            android:singleLine="true"
             android:textColor="@color/colorNavyBlue"
-            android:textSize="16sp" />
+            android:inputType="textPassword"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
-
+    
     <TextView
         android:id="@+id/tv_go_to_forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/forgot_password"
         android:textColor="@color/colorDarkGrey"
         app:layout_constraintEnd_toEndOf="@id/password"
-        app:layout_constraintTop_toBottomOf="@id/password" />
+        app:layout_constraintTop_toBottomOf="@id/password"
+        android:text="@string/forgot_password"/>
 
     <TextView
         android:id="@+id/tv_sign_in_now"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/ll_no_account"
         android:layout_marginBottom="50dp"
-        android:background="@drawable/start_rounded_corners"
+        android:text="@string/sign_in"
+        android:paddingStart="80dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorNavyBlue"
         android:drawableEnd="@drawable/next"
         android:drawablePadding="40dp"
-        android:gravity="center"
-        android:paddingStart="60dp"
-        android:paddingTop="5dp"
-        android:paddingEnd="40dp"
-        android:paddingBottom="5dp"
-        android:text="@string/sign_in"
-        android:textColor="@color/colorNavyBlue"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/ll_no_account"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:background="@drawable/start_rounded_corners"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <LinearLayout
         android:id="@+id/ll_no_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="40dp"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent">
+        android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/no_account"
-            android:textSize="18sp" />
-
+            android:textSize="20sp"/>
         <TextView
             android:id="@+id/go_to_sign_up"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
             android:text="@string/sign_up"
+            android:layout_marginStart="10dp"
             android:textColor="@color/colorNavyBlue"
-            android:textSize="18sp" />
+            android:textSize="20sp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f518a41f64535fb7014a3f307b5bc021/jetified-android-image-cropper-2.8.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:3.6.1] /home/muhammad/.gradle/caches/transforms-2/files-2.1/6738e010c0d9673bd3b8fcf38d8f7e13/jetified-viewbinding-3.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0-alpha01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/f2d8da91cc7c22f5871395318d6d55fe/navigation-ui-ktx-2.3.0-alpha01/AndroidManifest.xml:17:1-24:12
@@ -77,31 +77,35 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/m
 MERGED from [androidx.print:print:1.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/10cc3c051c752fbb810270100d4a424d/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/cbc5247d198264b2cfb4dcbde0284470/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/transforms-2/files-2.1/5d5ae046d7cf3fb8e50195731d454df4/jetified-core-1.6.4/AndroidManifest.xml:2:1-12:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:11:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/0ee982303c8e42c8b44008fde76bd2f7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:11:22-64
 application
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:7:5-28:19
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:13:5-48:19
 MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/c5ae4b9c98c1a5070b879c895d827052/material-1.2.0-alpha01/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha01] /home/muhammad/.gradle/caches/transforms-2/files-2.1/c5ae4b9c98c1a5070b879c895d827052/material-1.2.0-alpha01/AndroidManifest.xml:22:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/613791d85c263dae558abc9337a3f1a8/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
@@ -141,43 +145,51 @@ MERGED from [com.google.android.play:core:1.6.4] /home/muhammad/.gradle/caches/t
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/muhammad/.gradle/caches/transforms-2/files-2.1/ad28d700ae308c8ee5ac242eeef4ba8c/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:19:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:29:9-31:55
+	android:value
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:30:13-58
 activity#com.example.handthishomathon.ChatBotActivity
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:14:9-15:56
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:33:9-35:56
+	android:parentActivityName
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:34:13-58
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:15:13-44
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:35:13-44
 activity#com.example.handthishomathon.LandingActivity
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:36:9-44:20
 	android:screenOrientation
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:18:13-49
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:17:13-44
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:37:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:42:27-74
 activity#com.example.handthishomathon.AppActivity
-ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:25:9-27:61
+ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:45:9-47:61
 	android:screenOrientation
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:27:13-49
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:47:13-49
 	android:name
-		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:26:13-40
+		ADDED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml:46:13-40
 uses-sdk
 INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/AndroidManifest.xml

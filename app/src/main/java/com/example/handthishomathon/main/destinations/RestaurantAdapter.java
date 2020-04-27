@@ -29,6 +29,10 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.Re
         this.mRestaurantList = mRestaurantList;
     }
 
+    public RestaurantModel getCurrentClient(int position){
+        return mRestaurantList.get(position);
+    }
+
     @NonNull
     @Override
     public RestaurantVH onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -43,6 +47,7 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.Re
         holder.rAddress.setText(restaurantModel.getRestaurantAddress());
         holder.rName.setText(restaurantModel.getRestaurantName());
         holder.rLogo.setImageResource(restaurantModel.getRestaurantLogo());
+
 
     }
 

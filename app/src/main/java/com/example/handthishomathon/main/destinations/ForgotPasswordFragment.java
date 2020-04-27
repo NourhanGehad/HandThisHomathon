@@ -10,9 +10,9 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.handthishomathon.R;
-import com.example.handthishomathon.databinding.FragmentForgotPasswordBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
@@ -20,8 +20,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
  * A simple {@link Fragment} subclass.
  */
 public class ForgotPasswordFragment extends Fragment {
-
-    private FragmentForgotPasswordBinding binding;
 
     public ForgotPasswordFragment() {
         // Required empty public constructor
@@ -32,9 +30,7 @@ public class ForgotPasswordFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        binding = FragmentForgotPasswordBinding.inflate(inflater, container, false);
-        View view = binding.getRoot();
-        return view;
+        return inflater.inflate(R.layout.fragment_forgot_password, container, false);
     }
 
     @Override
@@ -42,8 +38,8 @@ public class ForgotPasswordFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         BottomNavigationView navBar = getActivity().findViewById(R.id.bottom_nav_bar);
         navBar.setVisibility(View.GONE);
-
-        binding.backArrow.setOnClickListener(new View.OnClickListener() {
+        ImageView back = view.findViewById(R.id.back_arrow);
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(view).navigateUp();

@@ -1,15 +1,19 @@
 [
     {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_dish.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_dish.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_cart.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_cart.xml"
+    },
+    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_transparnt_rounded_corners_green.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/transparnt_rounded_corners_green.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_chat_bot.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_chat_bot.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_card_rounded_corners.xml.flat",
@@ -24,12 +28,168 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_phone_verification.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_phone_verification.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_white_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/white_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_ic_send_button.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_send_button.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_brush_line.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/brush_line.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_in.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_in.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_dot_selector.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_dot_selector.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_next.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/next.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_up.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_up.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_plus.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_my_orders.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_my_orders.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_chimney.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_chimney.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_restaurant.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_restaurant.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_intro_img2.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/intro_img2.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_forgot_password.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_forgot_password.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/menu_bottom_navigation_menu.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_egypt.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_egypt.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_user_profile.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_user_profile.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_app.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_app.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_heart.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/heart.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_start_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/start_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_delivery_location.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_delivery_location.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_yellow_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/yellow_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/navigation_app_nav_graph.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/navigation/app_nav_graph.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_their_message.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/their_message.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_back_arrow.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/back_arrow.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_radius_background_stroke.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/radius_background_stroke.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_card_business.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/card_business.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_landing.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_landing.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_search.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_next.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_next.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_orange_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/orange_rounded_corners.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_chat_bot.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_chat_bot.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_map.jpg.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/map.jpg"
+    },
+    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_kfc_logo.png.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/kfc_logo.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_star.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/star.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_baseline_clear.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_baseline_clear.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_selected_dot.xml.flat",
@@ -84,34 +244,6 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/nav_bar_background.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/logo.png"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_user.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/user.png"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_phone_verification.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_phone_verification.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_white_rounded_corners.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/white_rounded_corners.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_ic_send_button.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_send_button.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_brush_line.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/brush_line.png"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_in.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_in.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_item_message_received.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/item_message_received.xml"
     },
@@ -120,20 +252,16 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/intro_img1.png"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_slider_dot_selector.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/slider_dot_selector.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_minus__1.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_minus__1.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_location.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_location.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_next.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/next.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_profile.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_albaik_logo.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_albaik_logo.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -148,8 +276,8 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_sign_up.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_sign_up.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_grean_rounded_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/grean_rounded_corners.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_list.png.flat",
@@ -160,48 +288,16 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_photo.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_my_orders.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_my_orders.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_chimney.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_chimney.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_add_adress.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_add_adress.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/font_microsoft_yahei.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/font/microsoft_yahei.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_restaurant.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_restaurant.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_intro_img2.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/intro_img2.png"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_forgot_password.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_forgot_password.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/menu_bottom_navigation_menu.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/menu/bottom_navigation_menu.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_cvv.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_cvv.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_user_profile.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_user_profile.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_app.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_app.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_heart.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/heart.png"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -216,8 +312,8 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_close_black_20dp.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_start_rounded_corners.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/start_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_check.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_check.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -228,8 +324,12 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/font/msyhbd.ttf"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_yellow_rounded_corners.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/yellow_rounded_corners.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_edit.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_whit_rectangle_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/whit_rectangle_corners.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_location2.png.flat",
@@ -240,28 +340,16 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/restaurant_item.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/navigation_app_nav_graph.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/navigation/app_nav_graph.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_their_message.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/their_message.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_back_arrow.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/back_arrow.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_card_details_bottom_sheet_list_dialog.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_card_details_bottom_sheet_list_dialog.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_radius_background_stroke.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/radius_background_stroke.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_arrow_drop_down.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_arrow_drop_down.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_albaik.png.flat",
@@ -276,10 +364,6 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/dialog_enable_location.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_card_business.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/card_business.xml"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -288,12 +372,12 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/ic_chatbot.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_my_message.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/my_message.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_dialoge_my_order.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/dialoge_my_order.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable-v24_my_message.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable-v24/my_message.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_circle_background.xml.flat",
@@ -304,12 +388,8 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/item_message_sent.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/layout_activity_landing.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/layout/activity_landing.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_search.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_search.xml"
+        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_green_rectangle_corners.xml.flat",
+        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/green_rectangle_corners.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
@@ -324,16 +404,8 @@
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/transparnt_rounded_corners.xml"
     },
     {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_cash.xml.flat",
         "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_cash.xml"
-    },
-    {
-        "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_next.xml.flat",
-        "source": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/src/main/res/drawable/ic_next.xml"
     },
     {
         "merged": "/home/muhammad/AndroidStudioProjects/parcticingApps/HandThisHomathons/app/build/intermediates/res/merged/debug/drawable_ic_minus.xml.flat",

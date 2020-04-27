@@ -25,12 +25,11 @@ public class LandingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
-        //Hide status bar
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
 
     }
 
-    public void hideStarterFragment() {
+    public void hideStarterFragment(){
         FrameLayout starterView = findViewById(R.id.fragment_view);
         ConstraintLayout introView = findViewById(R.id.intro_view);
         starterView.setVisibility(View.GONE);
@@ -53,8 +52,7 @@ public class LandingActivity extends AppCompatActivity {
 
             }
 
-            @Override
-            public void onPageSelected(int position) {
+            @Override public void onPageSelected(int position) {
                 if (position == adapter.getCount() - 1) {
                     leaveLandingPage.setVisibility(View.VISIBLE);
                 } else {
@@ -62,8 +60,7 @@ public class LandingActivity extends AppCompatActivity {
                 }
             }
 
-            @Override
-            public void onPageScrollStateChanged(int state) {
+            @Override public void onPageScrollStateChanged(int state) {
 
             }
         });
@@ -75,7 +72,6 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
     }
-
     private void makeStatusBarTransparent() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
@@ -84,7 +80,7 @@ public class LandingActivity extends AppCompatActivity {
         }
     }
 
-    private void leaveLandingPage() {
+    private void leaveLandingPage(){
         Intent intent = new Intent(LandingActivity.this, AppActivity.class);
         startActivity(intent);
         finish();
