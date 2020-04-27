@@ -49,17 +49,23 @@
         android:name="com.example.handthishomathon.main.destinations.MyOrdersFragment"
         android:label="fragment_my_orders"
         tools:layout="@layout/fragment_my_orders" />
-    <!--TODO UNHIDE-->
-<!--    <fragment
+
+    <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.handthishomathon.main.destinations.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />-->
+        tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/favouritesFragment"
         android:name="com.example.handthishomathon.main.destinations.FavouritesFragment"
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
+
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.example.handthishomathon.main.destinations.ChatBotFragment"
+        android:label="fragment_chat_bot"
+        tools:layout="@layout/fragment_chat_bot" />
     <!--TODO UNHIDE-->
 <!--    <fragment
         android:id="@+id/phoneVerification"

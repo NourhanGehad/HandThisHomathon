@@ -29,72 +29,71 @@
 19-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity
-23-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:14:9-21:20
-24            android:name="com.example.handthishomathon.LandingActivity"
-24-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:14:19-50
-25            android:screenOrientation="nosensor" >
-25-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:15:13-49
-26            <intent-filter>
-26-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:16:13-20:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:17:17-69
-27-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:17:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:19:17-77
-29-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:19:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:22:9-25:20
-33            android:name="com.example.handthishomathon.AppActivity"
-33-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:22:19-46
-34            android:screenOrientation="nosensor" >
-34-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:23:13-49
-35        </activity>
-36
-37        <provider
-37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
-38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-39            android:authorities="com.example.handthishomathon.lifecycle-process"
-39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
-40            android:exported="false"
-40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
-41            android:multiprocess="true" /> <!-- The activity will be merged into the manifest of the hosting app. -->
-41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
-42        <activity
-42-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:5-271
-43            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-43-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:15-102
-44            android:enabled="false"
-44-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:103-126
-45            android:exported="false"
-45-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:127-151
-46            android:launchMode="singleInstance"
-46-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:204-239
-47            android:process=":playcore_missing_splits_activity"
-47-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:152-203
-48            android:stateNotNeeded="true" />
-48-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:240-269
-49        <activity
-49-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:5-278
-50            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-50-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:15-95
-51            android:enabled="false"
-51-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:96-119
-52            android:exported="false"
-52-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:120-144
-53            android:process=":playcore_dialog_wrapper_activity"
-53-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:175-226
-54            android:stateNotNeeded="true"
-54-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:145-174
-55            android:theme="@style/Theme.PlayCore.Transparent" />
-55-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:227-276
-56    </application>
-57
-58</manifest>
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:14:9-21:20
+23            android:name="com.example.handthishomathon.LandingActivity"
+23-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:14:19-50
+24            android:screenOrientation="nosensor" >
+24-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:15:13-49
+25            <intent-filter>
+25-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:22:9-25:20
+32            android:name="com.example.handthishomathon.AppActivity"
+32-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:22:19-46
+33            android:screenOrientation="nosensor" >
+33-->C:\Users\Hayllie\Downloads\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\HandThisHomathon\app\src\main\AndroidManifest.xml:23:13-49
+34        </activity>
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.example.handthishomathon.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" /> <!-- The activity will be merged into the manifest of the hosting app. -->
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\59220316ddde44dc249f39be97ff7a13\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+41        <activity
+41-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:5-271
+42            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+42-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:15-102
+43            android:enabled="false"
+43-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:103-126
+44            android:exported="false"
+44-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:127-151
+45            android:launchMode="singleInstance"
+45-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:204-239
+46            android:process=":playcore_missing_splits_activity"
+46-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:152-203
+47            android:stateNotNeeded="true" />
+47-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:8:240-269
+48        <activity
+48-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:5-278
+49            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+49-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:15-95
+50            android:enabled="false"
+50-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:96-119
+51            android:exported="false"
+51-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:120-144
+52            android:process=":playcore_dialog_wrapper_activity"
+52-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:175-226
+53            android:stateNotNeeded="true"
+53-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:145-174
+54            android:theme="@style/Theme.PlayCore.Transparent" />
+54-->[com.google.android.play:core:1.6.4] C:\Users\Hayllie\.gradle\caches\transforms-2\files-2.1\5d5ae046d7cf3fb8e50195731d454df4\jetified-core-1.6.4\AndroidManifest.xml:9:227-276
+55    </application>
+56
+57</manifest>
