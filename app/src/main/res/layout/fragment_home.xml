@@ -7,7 +7,8 @@
     android:background="@android:color/white"
     android:padding="15dp"
     tools:context=".main.destinations.HomeFragment">
-    <!--TODO UNHIDE-->
+    <!--TODO UNHIDE
+    -->
 <!--    <EditText
         android:id="@+id/et_location"
         android:layout_width="match_parent"
