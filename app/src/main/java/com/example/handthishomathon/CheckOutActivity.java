@@ -18,7 +18,8 @@ public class CheckOutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_check_out);
-
+        /*<!--TODO UNHIDE-->*/
+/*
         Toolbar toolbar = findViewById(R.id.check_out_toolbar);
         toolbar.setTitle("Checkout");
         setSupportActionBar(toolbar);
@@ -37,6 +38,6 @@ public class CheckOutActivity extends AppCompatActivity {
                 CardDetailsBottomSheet pay = new CardDetailsBottomSheet();
                 pay.show(getSupportFragmentManager(), "payBottomSheet");
             }
-        });
+        });*/
     }
 }

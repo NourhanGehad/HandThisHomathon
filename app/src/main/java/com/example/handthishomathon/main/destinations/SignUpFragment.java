@@ -61,7 +61,7 @@ public class SignUpFragment extends Fragment {
         binding.tvSignUpNow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                binding.userType.getText();
+//                binding.userType.getText();
                 if (binding.userType.getText().equals("Customer")) {
                     Consumer consumer = createConsumerObject();
                     if (!consumer.getPhone().isEmpty()) {

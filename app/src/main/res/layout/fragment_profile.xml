@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".main.destinations.ProfileFragment">
-
+    <!--TODO UNHIDE-->
+<!--
     <TextView
         android:id="@+id/tv_edit_profile_title"
         android:layout_width="match_parent"
@@ -190,5 +191,5 @@
                 android:textColor="@color/colorNavyBlue"
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
-    </LinearLayout>
+    </LinearLayout>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

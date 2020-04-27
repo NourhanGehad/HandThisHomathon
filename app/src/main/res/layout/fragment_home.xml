@@ -7,8 +7,8 @@
     android:background="@android:color/white"
     android:padding="15dp"
     tools:context=".main.destinations.HomeFragment">
-
-    <EditText
+    <!--TODO UNHIDE-->
+<!--    <EditText
         android:id="@+id/et_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -86,5 +86,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_restaurant"
-        tools:listitem="@layout/restaurant_item" />
+        tools:listitem="@layout/restaurant_item" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>

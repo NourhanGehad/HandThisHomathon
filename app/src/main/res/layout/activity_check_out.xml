@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CheckOutActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
+    <!--TODO UNHIDE-->
+<!--    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/check_out_appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -382,6 +382,6 @@
         android:textColor="@color/colorNavyBlue"
         android:background="@drawable/start_rounded_corners"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textAllCaps="true"/>
+        android:textAllCaps="true"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
