@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -18,7 +20,8 @@ public class AppActivity extends AppCompatActivity {
     private NavHostFragment navHostFragment;
     private ActivityAppBinding binding;
     private View view;
-
+    public SharedPreferences mPrefs;
+    public String userType = "N/A";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +31,11 @@ public class AppActivity extends AppCompatActivity {
         //Hide status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         navHostFragment();
-
+        mPrefs = getPreferences(MODE_PRIVATE);
+        userType = mPrefs.getString("user_type", "N/A");
+        if(!userType.equals("N/A")){
+            navHostFragment.getNavController().navigate(R.id.action_to_home);
+        }
     }
 
     public void setOnBackPressedListener(IOnBackPressed onBackPressedListener) {

@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
+import com.google.gson.Gson;
 
 public class LandingActivity extends AppCompatActivity {
 
@@ -27,7 +29,12 @@ public class LandingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_landing);
         //Hide status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+        SharedPreferences mPrefs = getPreferences(MODE_PRIVATE);
+        String userType = mPrefs.getString("user_type", "N/A");
+        if(!userType.equals("N/A")){
+            Intent intent = new Intent(LandingActivity.this, AppActivity.class);
+            startActivity(intent);
+        }
     }
 
     public void hideStarterFragment() {

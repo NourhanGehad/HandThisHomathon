@@ -1,5 +1,6 @@
 package com.example.handthishomathon.main.destinations;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -28,10 +29,13 @@ import com.example.handthishomathon.model.Business;
 import com.example.handthishomathon.model.Consumer;
 import com.example.handthishomathon.model.LoginForm;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 import org.w3c.dom.Text;
+
+import static android.content.Context.MODE_PRIVATE;
 
 
 /**
@@ -92,7 +96,7 @@ public class SignInFragment extends Fragment {
                                 JsonArray jsonArray = jsonObject.get("data").getAsJsonArray();
                                 JsonObject user = jsonArray.get(0).getAsJsonObject();
                                 Consumer consumer = JsonObjectToConsumer(user);
-
+                                saveUser(consumer,null);
                                 Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
                             } else {
                                 Toast.makeText(getActivity(), "Login failed", Toast.LENGTH_SHORT).show();
@@ -113,7 +117,7 @@ public class SignInFragment extends Fragment {
                                 JsonArray jsonArray = jsonObject.get("data").getAsJsonArray();
                                 JsonObject user = jsonArray.get(0).getAsJsonObject();
                                 Business business = JsonObjectToBusiness(user);
-
+                                saveUser(null,business);
                                 Navigation.findNavController(view).navigate(R.id.action_signin_to_home);
                             } else {
                                 Toast.makeText(getActivity(), "Login failed", Toast.LENGTH_SHORT).show();
@@ -181,5 +185,21 @@ public class SignInFragment extends Fragment {
             business.setLatitude(user.get("latitude").getAsDouble());
 
         return business;
+    }
+
+    private void saveUser(Consumer consumer, Business business){
+        SharedPreferences mPrefs = getActivity().getPreferences(MODE_PRIVATE);;
+        SharedPreferences.Editor prefsEditor = mPrefs.edit();
+        Gson gson = new Gson();
+        if(business == null){
+            String json = gson.toJson(consumer);
+            prefsEditor.putString("consumer", json);
+            prefsEditor.putString("user_type", "consumer");
+        } else {
+            String json = gson.toJson(consumer);
+            prefsEditor.putString("business", json);
+            prefsEditor.putString("user_type", "business");
+        }
+        prefsEditor.commit();
     }
 }
