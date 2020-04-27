@@ -115,9 +115,11 @@ public class ChatBotFragment extends Fragment {
                     userMessage.setUserName("Me");
                     userMessage.setSender("Me");
                     userMessage.setMessage(mMessage);
+
                     if (mAdapter.getMessageAt().getMessage().equals("الرجاء كتابه الطلب")) {
                         Log.d(TAG, "initView: " + mMessage); // this is the order
                     }
+
                     mAdapter.addSingleItem(userMessage);
                     ChatBotFragment.this.sendMessage();
                     etMessage.setText("");

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/white_rounded_corners"
+    android:elevation="5dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_restaurant_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kfc_logo"
+        app:layout_constraintLeft_toRightOf="@id/iv_delete"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_restaurant_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:text="KFC"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/iv_restaurant_logo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_restaurant_logo" />
+
+    <ImageView
+        android:id="@+id/iv_location"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/location"
+        android:tint="@color/colorDarkGrey"
+        app:layout_constraintLeft_toRightOf="@id/iv_restaurant_logo"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_name" />
+
+    <TextView
+        android:id="@+id/tv_restaurant_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Jeddah, Saudi Arabia 21412"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_location"
+        app:layout_constraintLeft_toRightOf="@id/iv_location"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_location" />
+
+    <ImageView
+        android:id="@+id/iv_rating"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/star"
+        app:layout_constraintLeft_toRightOf="@id/iv_restaurant_logo"
+        app:layout_constraintTop_toBottomOf="@id/iv_location" />
+
+    <TextView
+        android:id="@+id/tv_restaurant_rating"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="4.3 (340 rating)"
+        android:textColor="@color/colorGrey"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/iv_rating"
+        app:layout_constraintLeft_toRightOf="@id/iv_rating"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_rating" />
+
+    <ImageButton
+        android:id="@+id/iv_delete"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_minus"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
