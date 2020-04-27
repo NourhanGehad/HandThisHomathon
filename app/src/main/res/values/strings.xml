@@ -56,11 +56,9 @@
     <string name="verify_phone_number">Verify phone number</string>
     <string name="please_write_your_phone">Please write your phone</string>
     <string name="confirm">Confirm</string>
-    <string name="google_maps_key" />
+    <string name="save_address">Save address</string>
     <string name="food_name">Food name</string>
     <string name="quantity">Quantity</string>
     <string name="item_price">Item price</string>
-    <string name="total_28_00">total 28.00</string>
-    <string name="_20_00_le">20.00 LE</string>
-    <string name="save_address">Save address</string>
+    <string name="total_28_00">Total 28.00</string>
 </resources>

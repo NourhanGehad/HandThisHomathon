@@ -1,10 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="15dp"
     tools:context=".main.destinations.HomeFragment">
 
+    <EditText
+        android:id="@+id/et_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_background_stroke"
+        android:drawableLeft="@drawable/location"
+        android:drawablePadding="5dp"
+        android:hint="Your Location"
+        android:lines="1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/et_search_for_restaurant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radius_background_stroke"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="5dp"
+        android:hint="Search for restaurant"
+        android:lines="1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="@id/et_location"
+        app:layout_constraintRight_toLeftOf="@id/fab_cart"
+        app:layout_constraintTop_toBottomOf="@id/et_location" />
 
-</FrameLayout>
+    <ImageButton
+        android:id="@+id/fab_cart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="TODO"
+        android:padding="2dp"
+        android:src="@drawable/ic_shopping_bag"
+        app:layout_constraintBottom_toBottomOf="@id/et_search_for_restaurant"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/et_search_for_restaurant" />
+
+    <TextView
+        android:id="@+id/tv_cart_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@id/fab_cart"
+        app:layout_constraintEnd_toEndOf="@id/fab_cart"
+        app:layout_constraintStart_toStartOf="@id/fab_cart"
+        app:layout_constraintTop_toTopOf="@id/fab_cart" />
+
+    <TextView
+        android:id="@+id/tv_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Restaurants"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_search_for_restaurant" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_restaurants"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant"
+        tools:listitem="@layout/restaurant_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -57,18 +57,18 @@
         android:label="fragment_favourites"
         tools:layout="@layout/fragment_favourites" />
     <fragment
-        android:id="@+id/addAdress"
-        android:name="com.example.handthishomathon.AddAdress"
-        android:label="fragment_add_adress"
-        tools:layout="@layout/fragment_add_adress" />
+        android:id="@+id/phoneVerification"
+        android:name="com.example.handthishomathon.main.destinations.PhoneVerification"
+        android:label="fragment_phone_verification"
+        tools:layout="@layout/fragment_phone_verification" />
     <fragment
-        android:id="@+id/deliveryLocation"
-        android:name="com.example.handthishomathon.DeliveryLocation"
-        android:label="fragment_delivery_location"
-        tools:layout="@layout/fragment_delivery_location" />
+        android:id="@+id/verifyPhoneNumber"
+        android:name="com.example.handthishomathon.main.destinations.VerifyPhoneNumber"
+        android:label="fragment_verify_phone_number"
+        tools:layout="@layout/fragment_verify_phone_number" />
     <fragment
-        android:id="@+id/cart"
-        android:name="com.example.handthishomathon.Cart"
-        android:label="fragment_cart"
-        tools:layout="@layout/fragment_cart" />
+        android:id="@+id/restaurant"
+        android:name="com.example.handthishomathon.main.destinations.Restaurant"
+        android:label="fragment_restaurant"
+        tools:layout="@layout/fragment_restaurant" />
 </navigation>
