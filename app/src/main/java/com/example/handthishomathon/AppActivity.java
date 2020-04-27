@@ -11,6 +11,9 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.example.handthishomathon.databinding.ActivityAppBinding;
+import com.example.handthishomathon.model.Business;
+import com.example.handthishomathon.model.Consumer;
+import com.google.gson.Gson;
 
 import java.util.Objects;
 
@@ -21,7 +24,10 @@ public class AppActivity extends AppCompatActivity {
     private ActivityAppBinding binding;
     private View view;
     public SharedPreferences mPrefs;
-    public String userType = "N/A";
+    public static String userType = "N/A";
+    public static Consumer currentConsumer = new Consumer();
+    public static Business currentBusiness = new Business();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +40,15 @@ public class AppActivity extends AppCompatActivity {
         mPrefs = getPreferences(MODE_PRIVATE);
         userType = mPrefs.getString("user_type", "N/A");
         if(!userType.equals("N/A")){
+            Gson gson = new Gson();
+            if(userType.equals("consumer")){
+                String json = mPrefs.getString("consumer", "");
+                currentConsumer = gson.fromJson(json, Consumer.class);
+            } else if (userType.equals("business")) {
+                String json = mPrefs.getString("business", "");
+                currentBusiness = gson.fromJson(json, Business.class);
+            }
+
             navHostFragment.getNavController().navigate(R.id.action_to_home);
         }
     }

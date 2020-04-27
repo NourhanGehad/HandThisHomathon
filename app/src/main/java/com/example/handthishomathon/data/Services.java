@@ -45,7 +45,7 @@ public interface Services {
     public Observable<JsonObject> loginBusiness(@Body LoginForm loginForm);
     
     @POST("order/create-order")
-    public Observable<Order> addNewOrder(@Body Order order);
+    public Observable<JsonObject> addNewOrder(@Body Order order);
 
     @PUT("consumer/update-consumer/{id}")
     public Observable<Consumer> editProfileConsumer(@Path("id") String id, @Body Consumer consumer);

@@ -3,6 +3,7 @@ package com.example.handthishomathon.data;
 import com.example.handthishomathon.model.Business;
 import com.example.handthishomathon.model.Consumer;
 import com.example.handthishomathon.model.LoginForm;
+import com.example.handthishomathon.model.Order;
 import com.google.gson.JsonObject;
 
 
@@ -45,6 +46,9 @@ public class Client {
     }
     public Observable<JsonObject> loginBusiness(LoginForm business){
         return services.loginBusiness(business);
+    }
+    public Observable<JsonObject> createOrder(Order order){
+        return services.addNewOrder(order);
     }
 
 }
